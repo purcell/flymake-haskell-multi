@@ -15,6 +15,7 @@
 ;;; Code:
 
 (require 'flymake-easy)
+(require 'find-func)
 
 (defconst flymake-haskell-multi-err-line-patterns
   '(("^\\(.*\.l?hs\\):\\([0-9]+\\):\\([0-9]+\\):\n +\\(\\(?:.+\\)\\(?:\n +.+\\)*\\)" 1 2 3 4) ; ghc
