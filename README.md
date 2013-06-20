@@ -8,6 +8,8 @@ will be displayed via flymake overlays in the source code.
 
 This works via a small shell script, `haskell_multi`, which is bundled.
 
+For a demonstration, see [this screencast](http://www.youtube.com/watch?v=aj7WF_Zm9zY).
+
 Installation
 =============
 
