@@ -1,6 +1,8 @@
 flymake-haskell-multi.el
 ========================
 
+*Note: you probably want to use [flycheck](https://github.com/lunaryorn/flycheck) instead.*
+
 An Emacs flymake handler for checking Haskell source code with both
 `ghc` and [hlint][hlint]. If `ghc -Wall -fno-code` returns no errors,
 `hlint` is run (if available). Warnings and errors output by both programs
