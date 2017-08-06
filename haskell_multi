@@ -2,5 +2,5 @@
 sourcefile=$1
 ghc -Wall -fno-code $sourcefile
 if [ -x `which hlint` ]; then
-    hlint $sourcefile
+    hlint --color=never $sourcefile
 fi
